@@ -1,0 +1,2 @@
+http\://app.ingenuity.com/schema/myns=com.ingenuity.app.config.spring.MyNamespaceHandler
+http\://app.ingenuity.com/schema/component=com.ingenuity.app.config.spring.ComponentNamespaceHandler

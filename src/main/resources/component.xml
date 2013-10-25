@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:foo="http://app.ingenuity.com/schema/component"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+
+            http://app.ingenuity.com/schema/component
+            http://app.ingenuity.com/schema/component/component.xsd
+        ">
+
+    <!-- <bean/> definitions here -->
+
+    <foo:component id="bionic-family" name="Bionic-1">
+        <foo:component name="Sport-1"/>
+        <foo:component name="Rock-1"/>
+    </foo:component>
+</beans>

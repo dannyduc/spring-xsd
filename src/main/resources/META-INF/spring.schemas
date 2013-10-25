@@ -1,0 +1,2 @@
+http\://app.ingenuity.com/schema/myns/myns.xsd=com/ingenuity/app/config/spring/myns.xsd
+http\://app.ingenuity.com/schema/component/component.xsd=com/ingenuity/app/config/spring/component.xsd

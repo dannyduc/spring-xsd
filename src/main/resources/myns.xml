@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:myns="http://app.ingenuity.com/schema/myns"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+            http://app.ingenuity.com/schema/myns
+            http://app.ingenuity.com/schema/myns/myns.xsd
+        ">
+
+    <!-- <bean/> definitions here -->
+
+
+    <myns:dateformat id="defaultDateFormat" pattern="yyyy-MM-dd HH:mm" lenient="true"/>
+
+    <bean id="jobDetailTemplate" class="com.ingenuity.app.JobDetailTemplate">
+        <property name="dateFormat">
+            <myns:dateformat pattern="HH:mm MM-dd-yyyy"/>
+        </property>
+    </bean>
+</beans>
